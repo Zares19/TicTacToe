@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TTT.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{312E7C20-F55B-42C5-9687-49488AF4267C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TTT.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TTTEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{60A9CB5A-5991-4BFD-9573-D86747BE3CD4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TTT">
+      <UniqueIdentifier>{EABE6D9A-C2B9-49C5-BFDC-C6AC61F7415B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TTT\MyAI.cpp">
+      <Filter>Source\TTT</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TTT\MyAI.h">
+      <Filter>Source\TTT</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TTT\TTT.Build.cs">
+      <Filter>Source\TTT</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TTT\TTT.cpp">
+      <Filter>Source\TTT</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TTT\TTT.h">
+      <Filter>Source\TTT</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
